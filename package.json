@@ -1,0 +1,35 @@
+{
+  "name": "synology",
+  "version": "0.0.0",
+  "description": "A simple wrapper for the Synology NAS API",
+  "keywords": [
+    "api",
+    "audiostation",
+    "downloadstation",
+    "dsm",
+    "dtv",
+    "filestation",
+    "nas",
+    "surveillancestation",
+    "synology",
+    "videostation"
+  ],
+  "main": "./lib/api.js",
+  "dependencies": {
+    "request": "2.22.x"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yannickcr/node-synology.git"
+  },
+  "author": "Yannick Croissant (https://github.com/yannickcr)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/yannickcr/node-synology/master/LICENSE"
+    }
+  ]
+}
