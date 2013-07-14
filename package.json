@@ -14,7 +14,7 @@
     "synology",
     "videostation"
   ],
-  "main": "./lib/api.js",
+  "main": "./lib/synology.js",
   "dependencies": {
     "request": "2.22.x"
   },
