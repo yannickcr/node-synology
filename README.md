@@ -1,4 +1,6 @@
-# Synology
+# Node Synology
+
+[![NPM version](https://badge.fury.io/js/synology.png)](https://npmjs.org/package/synology) [![Dependency Status](https://gemnasium.com/yannickcr/node-synology.png)](https://gemnasium.com/yannickcr/node-synology)
 
 A simple wrapper for the Synology NAS API.
 
@@ -23,7 +25,7 @@ syno.query('/webapi/query.cgi', {
 	method : 'query',
 	query  : 'ALL'
 }, function(err, data) {
-	if (err) return console.error(err);
+	if (err) throw err;
 	console.log(data);
 });
 ```
@@ -35,4 +37,4 @@ syno.query('/webapi/query.cgi', {
 
 # License
 
-Node Chrome Logger is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+Node Synology is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
