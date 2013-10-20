@@ -16,7 +16,7 @@
   ],
   "main": "./lib/synology.js",
   "dependencies": {
-    "request": "2.22.x",
+    "request": "2.27.x",
     "form-data": "0.1.x"
   },
   "engines": {
